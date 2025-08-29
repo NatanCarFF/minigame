@@ -3,7 +3,10 @@
   flex-direction: column;
   height: 100vh;
   background-image: url("../images/wall.png");
-  filter: blur(3px);
+  filter: blur(1px);
+  filter: brightness(120%);
+  filter: sepia(10%);
+  filter: grayscale(20%);
 }
 
 .menu {
